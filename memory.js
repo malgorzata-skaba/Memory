@@ -111,7 +111,7 @@ function remove2randomcards (card1, card2)
 	if($('.card').css('display')==undefined)
 	{
 
-		$('.score').html('<h2>You win! <br> Done in: '+ moves+ ' turns.</h2><br/><span class="reload" onclick="location.reload()">One again?</span>');
+		$('.score').html('<h2>You win! <br> Done in: '+ moves+ ' turns.</h2><br/><span class="reload" onclick="location.reload()">Once again?</span>');
 
 	
 	}
